@@ -1,0 +1,51 @@
+# OS-generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# Node.js #
+############
+node_modules/
+
+# Dependency directories #
+##########################
+bower_components/
+jspm_packages/
+
+# IDE files #
+#############
+.idea/
+.vscode/
+
+# Build files #
+###############
+build/
+dist/
+*.min.js
+*.min.css
+
+# Logs and databases #
+#######################
+logs/
+*.log
+*.sqlite
+*.db
+
+# Environment files #
+#####################
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Miscellaneous #
+#################
+*.bak
+*.zip
+*.rar
+*.gz
+*.tar
+*.tgz
+*.swp
