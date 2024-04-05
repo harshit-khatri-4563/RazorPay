@@ -1,51 +1,111 @@
-# OS-generated files #
-######################
-.DS_Store
-Thumbs.db
+# # OS-generated files #
+# ######################
+# .DS_Store
+# Thumbs.db
 
-# Node.js #
-############
+# # Node.js #
+# ############
+# node_modules/
+
+# # Dependency directories #
+# ##########################
+# bower_components/
+# jspm_packages/
+
+# # IDE files #
+# #############
+# .idea/
+# .vscode/
+
+# # Build files #
+# ###############
+# build/
+# dist/
+# *.min.js
+# *.min.css
+
+# # Logs and databases #
+# #######################
+# logs/
+# *.log
+# *.sqlite
+# *.db
+
+# # Environment files #
+# #####################
+# .env
+# .env.local
+# .env.*.local
+# .env.development
+# .env.test
+# .env.production
+
+# # Miscellaneous #
+# #################
+# *.bak
+# *.zip
+# *.rar
+# *.gz
+# *.tar
+# *.tgz
+# *.swp
+
+
+
+
+# Node.js dependencies
 node_modules/
 
-# Dependency directories #
-##########################
-bower_components/
-jspm_packages/
-
-# IDE files #
-#############
-.idea/
-.vscode/
-
-# Build files #
-###############
-build/
-dist/
-*.min.js
-*.min.css
-
-# Logs and databases #
-#######################
-logs/
-*.log
-*.sqlite
-*.db
-
-# Environment files #
-#####################
+# Environment-specific files
 .env
 .env.local
-.env.*.local
 .env.development
 .env.test
 .env.production
 
-# Miscellaneous #
-#################
-*.bak
-*.zip
-*.rar
-*.gz
-*.tar
-*.tgz
-*.swp
+# Build directories
+dist/
+build/
+public/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Package manager lock files
+package-lock.json
+yarn.lock
+
+# Compiled files (add more extensions as needed)
+*.min.js
+*.min.css
+*.bundle.js
+
+# Dependency directories (e.g., for Bower or npm)
+bower_components/
+jspm_packages/
+
+# Configuration files
+*.config.js
+
+# Visual Studio Code settings
+.vscode/
+
+# Editor backup files
+*~
+
+# End of file marker
+
